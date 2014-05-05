@@ -1,0 +1,21 @@
+{
+    "name": "lies/doctrine-extensions",
+    "type": "library",
+    "description": "Doctrine 2 extensions",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "lies",
+            "email": "lies@i.ua"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "DoctrineExtensions\\": "src/"
+        }
+    }
+}
